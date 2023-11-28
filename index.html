@@ -1,282 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul Resume</title>
+    <link rel="stylesheet" href="static/style.css" />
+    <link rel="website icon" type="png" href="src/icon.png" />
+  </head>
 
-<!-- Rahul's Portfolio -->
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" id="fav" href="img/r.png" type="image/x-icon">
-    <title>Rahul's Portfolio</title>
-
-    <!-- Box Icons link  ----------------------------------------------------------------------------->
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!-- External CSS link  -------------------------------------------------------------------------->
-
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-    <!-- Header section  ----------------------------------------------------------------------------->
-
-    <header class="header">
-
-        <div class="logo">
-            <a href="#" class="logo">Portfolio</a>
+  <body
+    style="
+      background-image: url('/src/bg.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <div class="wrapper">
+      <div class="intro">
+        <div class="profile">
+          <div class="photo">
+            <img src="src/Rahul.png" alt="Rahul" />
+          </div>
+          <div class="bio">
+            <h1 class="name">Rahul</h1>
+            <p class="profession">Full Stack Web-Developer</p>
+          </div>
         </div>
-        <ul class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+        <div class="intro-section about">
+          <h1 class="title">about me</h1>
+          <p class="paragraph">
+            Hi everyone, I am a web front-end and back-end developer using MERN
+            Stack, pursuing B.Tech from Punjabi University, Patiala. I love to
+            code and always try my best to improve my skills. And also Looking
+            for a role where I can grow and learn from experienced peoples.
+          </p>
         </div>
-
-    </header>
-
-    <!-- Home section  -------------------------------------------------------------------------------->
-
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hi, myself</h3>
-            <h1>Rahul</h1>
-            <h3>And I am a <span class="multiple-text"></span></h3>
-            <p>A dedicated and innovative computer engineering student with a passion for creativity and a strong work
-                ethic. And also loves learning new technologies and finding innovative solutions for solving the
-                problems.</p>
-
-            <div class="social-media">
-                <a rel="noopener" title="git hub" href="https://github.com/Rahul-Taak" target="_blank"><i class='bx bx-git-branch'></i></a>
-                <a rel="noopener" title="gfg" href="https://auth.geeksforgeeks.org/user/rahultaak1702" target="_blank"><i
-                        class='bx bx-code-alt'></i></i></a>
-                <a rel="noopener" title="mail" href="mailto:rtaak786@gmail.com?subject = Feedback&body = Message" target="_blank"><i
-                        class='bx bx-envelope'></i></a>
-                <a rel="noopener" title="fiverr" href="https://www.fiverr.com/share/8mVWxo" target="_blank"><i class='bx bxs-edit'></i></a>
+        <br />
+        <div class="intro-section follow">
+          <h1 class="title">Languages</h1>
+          <div>
+            <ul class="lang">
+              <li>
+                <img src="src/right-arrow.png" class="iconii" alt="*" />
+                English
+              </li>
+              <li>
+                <img src="src/right-arrow.png" class="iconii" alt="*" />
+                Hindi
+              </li>
+              <li>
+                <img src="src/right-arrow.png" class="iconii" alt="*" />
+                Punjabi
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <div class="intro-section contact">
+          <h1 class="title">Contact</h1>
+          <div class="info-section">
+            <i class="fas fa-phone"></i>
+            <span>
+              <img src="src/phone-call.png" class="iconii" alt="call" />
+              7508510226
+            </span>
+          </div>
+          <div class="info-section">
+            <i class="fas fa-map-marker-alt"></i>
+            <div id="alignh">
+              <div><img src="src/home.png" class="iconii" alt="home" /></div>
+              <span>
+                V.P.O. Churiwala Dhanna, Abohar, District Fazilka, Punjab.
+              </span>
             </div>
-
-            <a href="img/ResumeCV.pdf" download="Rahul Resume" class="btn">Download CV</a>
-
+          </div>
+          <div class="info-section">
+            <i class="fas fa-paper-plane"></i>
+            <span>
+              <img src="src/email.png" class="iconii" alt="email" />
+              rtaak786@gmail.com
+            </span>
+          </div>
         </div>
-
-        <div class="home-img">
-            <img src="img/home.png" alt="Rahul">
+        <br />
+        <div class="intro-section follow">
+          <h1 class="title">Social Profiles</h1>
+          <div class="info-section link">
+            <i class="fab fa-github"></i>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/Rahul-Taak"
+            >
+              <span>
+                <img src="src/github.png" class="iconii" alt="github" />
+                Git Hub
+              </span>
+            </a>
+          </div>
+          <div class="info-section link">
+            <i class="fab fa-codepen"></i>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.linkedin.com/in/rahul-taak-4161621b8"
+            >
+              <span>
+                <img src="src/linkedin.png" class="iconii" alt="linkedin" />
+                Linked In
+              </span>
+            </a>
+          </div>
+          <div class="info-section link">
+            <i class="fab fa-codepen"></i>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://auth.geeksforgeeks.org/user/rahultaak1702"
+            >
+              <span>
+                <img src="src/code.png" class="iconii" alt="gfg" />
+                GeeksForGeeks
+              </span>
+            </a>
+          </div>
         </div>
+        <br />
 
-    </section>
-
-    <!-- About section  ------------------------------------------------------------------------------->
-
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/home.png" alt="Rahul">
-        </div>
-
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Computer Engineer!</h3>
-            <p>I am a student of B.Tech in computer science and engineering(CSE) fueled by a deep passion for creativity
-                and an insatiable curiosity for learning new technologies. With an unwavering enthusiasm for coding, I
-                find joy in the intricate process of transforming lines of logic into functional software solutions.
-                <br><br>
-                Along with, I possess not only a strong technical foundation but also a genuine desire to help others
-                through effective communication and teaching skills. <br><b>Front-End : </b>HTML, CSS, Bootstrap, JavaScript, React JS, Material UI
-                 <br><b>Backend : </b>Express JS, Node JS, PHP
-                 <br><b>DataBase : </b>MongoDB, MySQL
-            </p>
-            <a rel="noopener" href="https://grow-with-rahul.s3.us-east-2.amazonaws.com/Resume/index.html" class="btn"
-                target="_blank">Read More</a>
-        </div>
-    </section>
-
-    <!-- Services section  ---------------------------------------------------------------------------->
-
-    <section class="services" id="services">
-        <h2 class="heading">Our <span>Services</span></h2>
-        <br>
-        <br>
-        <div class="services-container">
-            <div class="services-box">
-                <i class="bx bx-code-alt"></i>
-                <h3>Web Development</h3>
-                <p>With a passion for web development and a diverse skill set, Rahul is a highly skilled full-stack web
-                    developer specializing in creating dynamic and immersive web applications with having 3 years of
-                    experience.</p>
-                <a rel="noopener" href="https://grow-with-rahul.s3.us-east-2.amazonaws.com/Resume/index.html" class="btn"
-                    target="_blank">Read More</a>
+        <div class="intro-section contact">
+          <h1 class="title">Work Experience</h1>
+          <div class="info-section">
+            <i class="fas fa-map-marker-alt"></i>
+            <div id="alignh">
+              <div><img src="src/work.png" class="iconii" alt="work" /></div>
+              <span>
+                Web Developement Training (6 Weeks) in <br /><b
+                  >Solitaire Infosys Pvt. Ltd.</b
+                >
+              </span>
+            </div><br>
+            <i class='bx bxs-network-chart'></i>
+            <div id="alignh">
+              <div><img src="src/network-chart.png" class="iconii" alt="work" /></div>
+              <span>
+                Network Marketing<br>Sold The Concept | Team Handling <b>(2 Years)</b> 
+              </span>
             </div>
-
-            <div class="services-box">
-                <i class="bx bx-mobile"></i>
-                <h3>App Development</h3>
-                <p>Rahul is a skilled mobile app developer with a strong focus on Java programming language. With a
-                    passion for creating innovative and user-friendly mobile applications with having 2 years of
-                    experience.</p>
-                <a rel="noopener" href="https://grow-with-rahul.s3.us-east-2.amazonaws.com/Resume/index.html" class="btn"
-                    target="_blank">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class="bx bxs-paint"></i>
-                <h3>Graphic Designing</h3>
-                <p>Rahul is a skilled graphic designer specializing in creating visually compelling designs using
-                    industry-standard software such as Adobe Photoshop, Adobe Illustrator, and Figma with 3 years of
-                    experience.</p>
-                <a rel="noopener" href="https://grow-with-rahul.s3.us-east-2.amazonaws.com/Resume/index.html" class="btn"
-                    target="_blank">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bx-video-recording'></i>
-                <h3>Video Editing</h3>
-                <p>Rahul is a skilled video editor specializing in creating captivating visual stories using
-                    industry-leading software such as Adobe Premiere Pro, Adobe After Effects, and Adobe Audition with
-                    hsving 4 years of experience.</p>
-                <a rel="noopener" href="https://grow-with-rahul.s3.us-east-2.amazonaws.com/Resume/index.html" class="btn"
-                    target="_blank">Read More</a>
-            </div>
-
+          </div>
         </div>
+        <br />
+        <div class="intro-section contact">
+          <h1 class="title">Hobbies</h1>
+          <div class="info-section">
+            <i class="fas fa-map-marker-alt"></i>
+            <div id="alignh">
+              <div><img src="src/chess.png" class="iconii" alt="chess" /></div>
+              <div>
+                <b>Chess</b><br />
+                <i>Indoor Game</i>
+              </div>
+              <br />
+              <div>
+                <img src="src/badminton.png" class="iconii" alt="badminton" />
+              </div>
+              <div>
+                <b>Badminton</b><br />
+                <i>Outdoor Game</i>
+              </div>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
 
-    </section>
-
-    <!-- Projects section  ---------------------------------------------------------------------------->
-
-    <section class="portfolio" id="projects">
-        <h2 class="heading">Certificates and <span>Projects</span></h2>
-
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="img/2.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>iMusic - A Music Website</h4>
-                    <p>A Music website with collection of popular Hindi melodies. </p>
-                    <a title="imusic" rel="noopener" href="https://grow-with-rahul.s3.us-east-2.amazonaws.com/imusic/index.html" target="_blank"><i
-                            class="bx bx-link-external"></i></a>
+      <div class="detail">
+        <div class="detail-section edu">
+          <div class="detail-title">
+            <div class="title-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <span>Education</span>
+          </div>
+          <div class="detail-content">
+            <div class="timeline-block">
+              <h1>B.Tech in Computer Science and Engineering</h1>
+              <p>Punjabi University, Patiala</p>
+              <time>2020 - 2024</time>
+            </div>
+            <div class="timeline-block">
+              <h1>12th in Non Medical (91.55%)</h1>
+              <p>Meritorious School Ghabdan, Sangrur</p>
+              <time>2020</time>
+            </div>
+            <div class="timeline-block">
+              <h1>10th (75.38%)</h1>
+              <p>Govt. Senior Secondary School, Churiwala Dhanna</p>
+              <time>2018</time>
+            </div>
+          </div>
+        </div>
+        <div class="detail-section pg-skill">
+          <div class="detail-title">
+            <div class="title-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <span>Web Developement Skills</span>
+          </div>
+          <div class="detail-content">
+            <ul class="pg-list">
+              <li>
+                <span><i class='bx bxl-html5' ></i>HTML</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 98%"></div>
                 </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="img/3.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Online Resume</h4>
-                    <p>A Resume that anyone can access through internet and go through from my details</p>
-                    <a title="resume" rel="noopener" href="https://grow-with-rahul.s3.us-east-2.amazonaws.com/Resume/index.html" target="_blank"><i
-                            class="bx bx-link-external"></i></a>
+              </li>
+              <li>
+                <span>CSS</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 95%"></div>
                 </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="img/5.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>RahulQuiz - A Quiz App</h4>
-                    <p>A personal Mobile Quiz app for entertainement purpose only.</p>
-                    <a rel="noopener" title="rahulquiz" href="https://play.google.com/store/apps/details?id=com.bundleq.rahulquiz" target="_blank"><i
-                            class="bx bx-link-external"></i></a>
+              </li>
+              <li>
+                <span>Javascript</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 95%"></div>
                 </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="img/6.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>AWS Certificates</h4>
-                    <p>In Amazon Web Services Platform, I earned Some certifications.</p>
-                    <a title="aws" rel="noopener" href="https://grow-with-rahul.s3.us-east-2.amazonaws.com/aws/test/index.html" target="_blank"><i
-                            class="bx bx-link-external"></i></a>
+              </li>
+              <li>
+                <span>NodeJS</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 90%"></div>
                 </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="img/1.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>GCP Certificates</h4>
-                    <p>In Google Cloud Platform, I earned a certificate to work with GCCP Punjabi University team.</p>
-                    <a title="gcp" rel="noopener" href="https://grow-with-rahul.s3.us-east-2.amazonaws.com/gcp/GCP+Cert/index.html"
-                        target="_blank"><i class="bx bx-link-external"></i></a>
+              </li>
+              <li>
+                <span>ReactJS</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 87%"></div>
                 </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="img/4.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Text Utils - A Web App</h4>
-                    <p>A Quick way to analyze and modify your Text like (uppercase, lowecase, Capitalize, total words/characters)</p>
-                    <a title="gcp" rel="noopener" href="https://rahul-taak.github.io/TextUtils/"
-                        target="_blank"><i class="bx bx-link-external"></i></a>
+              </li>
+             
+              <li>
+                <span>PHP</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 95%"></div>
                 </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Contact section  ----------------------------------------------------------------------------->
-
-    <section id="contact">
-
-        <div class="row">
-            <div class="contact-left">
-                <h2 class="heading">Contact <span>Me!</span></h2>
-                <div class="social-icons">
-                    <a title="fb" rel="noopener" href="https://www.facebook.com/rahul.taak.1610" target="_blank"><i
-                            class='bx bxl-facebook-square'></i></a>
-                    <a title="tw" rel="noopener" href="https://twitter.com/grow_rahul" target="_blank"><i class='bx bxl-twitter'></i></a>
-                    <a title="ig" rel="noopener" href="https://www.instagram.com/rahultaak1702/" target="_blank"><i
-                            class='bx bxl-instagram-alt'></i></a>
-                    <a title="li" rel="noopener" href="https://www.linkedin.com/in/rahul-taak-4161621b8/" target="_blank"><i
-                            class='bx bxl-linkedin-square'></i></a>
-                    <a title="yt" rel="noopener" href="https://www.youtube.com/channel/UCQnKIa5ohH8VbL4XVliRvaQ" target="_blank"><i
-                            class='bx bxl-youtube'></i></a>
-                    <a title="da" rel="noopener" href="https://discordapp.com/users/1013051720051470366" target="_blank"><i
-                            class='bx bxl-discord-alt'></i></a>
+              </li>
+              <li>
+                <span>MySQL</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 95%"></div>
                 </div>
-            </div>
-
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
-                    <br>
-                    <br>
-                    <button type="submit" id="btn" class="btn">Send Message</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
 
-    </section>
-
-    <!-- Footer section  ------------------------------------------------------------------------------>
-
-    <footer class="footer">
-        <div class="footer-text">
-            <p id="fdate"></p>
+        <div class="detail-section">
+          <div class="detail-title">
+            <div class="title-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <span>Other Languages</span>
+          </div>
+          <div class="detail-content">
+            <ul class="pg-list">
+              <li>
+                <span>C/C++</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 98%"></div>
+                </div>
+              </li>
+              <li>
+                <span>Python</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 70%"></div>
+                </div>
+              </li>
+              <li>
+                <span>JAVA</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div class="footer-iconTop">
-            <a title="home" href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        <div class="detail-section tool-skill">
+          <div class="detail-title">
+            <div class="title-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <span>Extra Curricular Interests</span>
+          </div>
+          <div class="detail-content">
+            <ul class="tool-list">
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.9"
+                  ></circle>
+                </svg>
+                <span class="tl-name sizec">Adobe Photoshop</span>
+              </li>
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.8"
+                  ></circle>
+                </svg>
+                <span class="tl-name sizec">Adobe Illustrator</span>
+              </li>
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.9"
+                  ></circle>
+                </svg>
+                <span class="tl-name sizec">Adobe Premiere Pro</span>
+              </li>
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.7"
+                  ></circle>
+                </svg>
+                <span class="tl-name sizec">Adobe After Effects</span>
+              </li>
+            </ul>
+          </div>
         </div>
-
+        <div class="detail-section interests">
+          <div class="detail-title">
+            <div class="title-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <span>Projects</span>
+          </div>
+          <div class="detail-content">
+            <ul class="favor-list">
+              <table>
+                <tr>
+                  <td class="showc info-section">
+                    <h3>Personal Portfolio&nbsp;</h3>
+                  </td>
+                  <td class="hides">Using HTML, CSS, JS</td>
+                </tr>
+                <tr>
+                  <td class="showc info-section">
+                    <h3>HungryEats - A Food Delivery Website&nbsp;</h3>
+                  </td>
+                  <td class="hides">Using HTML, CSS, JS, PHP, MySQL</td>
+                </tr>
+                <tr>
+                  <td class="showc info-section">
+                    <h3>Text Utils - A Text modifier web app&nbsp;</h3>
+                  </td>
+                  <td class="hides">Using HTML, CSS, ReactJS</td>
+                </tr>
+                <tr>
+                  <td class="showc info-section">
+                    <h3>Climate360 - A Live weather web app&nbsp;</h3>
+                  </td>
+                  <td class="hides">Using HTML, CSS, ReactJS</td>
+                </tr>
+                <tr>
+                  <td class="showc info-section">
+                    <h3>iMusic - A Music Website&nbsp;&nbsp;&nbsp;</h3>
+                  </td>
+                  <td class="hides">Using HTML, CSS, JS</td>
+                </tr>
+                <tr>
+                  <td class="showc info-section">
+                    <h3>RahulQuiz - An Android Quiz App&nbsp;&nbsp;&nbsp;</h3>
+                  </td>
+                  <td class="hides">Using JAVA, XML</td>
+                </tr>
+              </table>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      Copyright &copy;
+      <span id="displayDateTime"></span>
+      <script type="text/javascript">
+        document.getElementById("displayDateTime").innerHTML =
+          new Date().getFullYear();
+      </script>
+      | All Rights Reserved | By Rahul
     </footer>
-
-    <!-- Scroll reveal  ------------------------------------------------------------------------------->
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- Typed js  ------------------------------------------------------------------------------------>
-
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-    <!-- External Java script link  ------------------------------------------------------------------->
-
-    <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
