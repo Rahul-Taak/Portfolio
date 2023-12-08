@@ -1,5 +1,5 @@
 # Portfolio
-A portfolio website created using HTML, CSS , JS by Rahul Taak.
+A portfolio website created using HTML, CSS , JS by Rahul.
 
 It contains total five following sections :
 1. Home
