@@ -1,3 +1,5 @@
+## Link : https://rahul-taak.github.io/Portfolio
+
 # Portfolio
 A portfolio website created using HTML, CSS , JS by Rahul.
 
@@ -24,5 +26,3 @@ It has some collections of Projects and that I build and some certificates that 
 
 #Contact
 Last thing is Contact section with a contact form and some social handles also.
-
-Copyright © 2023 | All Rights Reserved
