@@ -378,7 +378,7 @@ span {
     margin: 0.3rem 0 1rem;
 }
 
-.portfolio-layer > a {
+.portfolio-layer > a:not(.yt-name) {
     width: 3rem;
     height: 3rem;
     background: #fff;
