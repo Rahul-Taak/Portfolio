@@ -64,14 +64,14 @@ section {
     width: 35%;
 }
 
-.nav-links a {
+.nav-links > a {
     font-size: 1.7rem;
     color: #fff;
     transition: .5s ease;
 }
 
-.nav-links a:hover,
-.nav-links a:active {
+.nav-links > a:hover,
+.nav-links > a:active {
     color: #0ef;
 }
 
@@ -377,14 +377,14 @@ span {
     margin: 0.3rem 0 1rem;
 }
 
-.portfolio-layer a {
+.portfolio-layer > a {
     width: 3rem;
     height: 3rem;
     background: #fff;
     border-radius: 50%;
 }
 
-.portfolio-layer a i {
+.portfolio-layer > a i {
     margin-top: 9px;
     display: flex;
     justify-content: center;
