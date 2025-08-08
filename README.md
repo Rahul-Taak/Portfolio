@@ -1,4 +1,4 @@
-## Link : https://rahul-taak.github.io/Portfolio
+## Link : https://rahul-1702.github.io/Portfolio
 
 # Portfolio
 A portfolio website created using HTML, CSS , JS by Rahul.
